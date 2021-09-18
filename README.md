@@ -4,6 +4,10 @@
 HTML шаблон готов на 80%
 DLE шаблон готов на 60%
 
+# Активные демки:
+HTML: https://viadevelop.store/demo/html_minecraft/
+DLE 14.3: https://viadevelop.store/demo/dle_minecraft/
+
 # Для правильного отображения новостей:
 В новом DLE:
 1) открываете файл /engine/modules/main.php
