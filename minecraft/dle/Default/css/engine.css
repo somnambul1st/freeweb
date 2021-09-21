@@ -227,10 +227,8 @@
 		padding: 0;
 		position: absolute;
 		width: 370px;
-		border-radius: 2px;
 		box-shadow: 0 8px 40px -10px rgba(0,0,0,0.3);
-		border: 1px solid #e6e6e6; border-color: rgba(0,0,0,0.1);
-		background-color: #f7f7f7;
+		background-color: #1e1d32;
 		background-clip: padding-box;
 		outline: none;
 	}
@@ -242,7 +240,6 @@
 		margin-top: -16px !important;
 		height: 23px !important;
 		width: 32px;
-		border: 0 none !important;
 		background-color: inherit !important;
 		box-shadow: none !important;
 		padding: 0px !important;
@@ -277,7 +274,7 @@
 	.ui-dialog-titlebar-close:hover .ui-icon { opacity: 1; }
 	.ui-icon, .ui-button-icon-only { overflow: hidden; text-indent: -9999px; }
 	.ui-dialog label { color: #575757; }
-	.ui-dialog-content { padding: 20px; border: 1px solid #fff; overflow: auto; position: relative; zoom: 1; }
+	.ui-dialog-content { padding: 20px; overflow: auto; position: relative; zoom: 1; }
 	.loginbox.ui-dialog, .loginbox .ui-dialog-content { overflow: visible !important; }
 	.ui-dialog-content h2 { display: inline; font-size: 1em; font-weight: bold }
 	.ui-dialog .ui-dialog-buttonpane { padding: 20px; text-align: center; }
