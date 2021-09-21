@@ -272,7 +272,11 @@ N2R(["nextend-frontend", "smartslider-frontend", "nextend-gsap", "nextend-webfon
         "dynamicHeight": 0
     });
 });
-
+$(document).ready(function(){
+    $('#profile-short').on("click", function(){
+        $('#profile-short-menu').toggle();
+    });
+});
 "use strict";
 
 // JavaScript Document

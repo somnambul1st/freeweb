@@ -39,7 +39,6 @@
     <script type="text/javascript" src="{THEME}/plugins/slider/js/nextend-webfontloader.min.js"></script>
 </head>
 <body>
-	[not-available=lostpassword|register]
 	<!-- PRELOADER START -->
     <div class="loader-wrapper">
         <div class='cssload-loader'>
@@ -119,9 +118,12 @@
                     </div>
                     <div class="table-cell valign-top text-right">
                         <div class="right-bl">
-                            <a href="#" class="btn header-btn ml25 color-white hidden-sm hidden-xs">
-                                Начать играть
-                            </a>
+                            [group=5]<a href="/index.php?do=login" class="btn header-btn ml25 color-white hidden-sm hidden-xs">
+                                Войти
+                            </a>[/group]
+                            [not-group=5]
+                            {login}
+                            [/not-group]
                         </div>
                     </div>
                 </div>
@@ -129,6 +131,7 @@
         </header>
     </div>
     <!-- HEADER END -->
+    [not-available=lostpassword|register]
     <!-- SLIDER START -->
     <section class="main-slider">
         <div id="n2-ss-4-align" class="n2-ss-align">
