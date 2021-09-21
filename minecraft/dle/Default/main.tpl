@@ -118,7 +118,7 @@
                     </div>
                     <div class="table-cell valign-top text-right">
                         <div class="right-bl">
-                            [group=5]<a href="/index.php?do=login" class="btn header-btn ml25 color-white hidden-sm hidden-xs">
+                            [group=5]<a href="#" class="btn header-btn ml25 color-white hidden-sm hidden-xs" data-toggle="modal" data-target="#login">
                                 Войти
                             </a>[/group]
                             [not-group=5]
@@ -521,6 +521,7 @@
     <script src="{THEME}/plugins/jquery-date-range-picker-master/dist/jquery.daterangepicker.min.js"></script>
     <script src="{THEME}/plugins/wow-master/dist/wow.min.js"></script>
     <script src="{THEME}/js/script.js"></script>
+    {include file="modal.tpl"}
 	{AJAX}
 </body>
 </html>

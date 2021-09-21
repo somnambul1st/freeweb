@@ -2810,6 +2810,28 @@ header .right-bl .search-content button {
     color: #9966CC;
     transition: all 0.3s ease-out;
 }
+
+.login_form ul, .login_form li {
+    list-style: none;
+    line-height: 3;
+    text-align: center;
+}
+
+.login_form input {
+    margin-left: 10px;
+    max-width: 260px;
+}
+
+.login_form input#login_password {
+    max-width: 250px;
+}
+
+.login_form__foot {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 2;
+}
 /* ==========================================================================
    03. SERVER SECTION
    ========================================================================== */
