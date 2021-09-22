@@ -787,6 +787,7 @@ img {
     font-size: 14px;
     font-weight: 700;
     border: 0;
+    text-align: center !important;
 }
 
 .btn.border-btn {
