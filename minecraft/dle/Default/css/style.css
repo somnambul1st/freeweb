@@ -3,7 +3,7 @@
 }
 
 .color-2 {
-    color: #000000;
+    color: #c2d4f8;
 }
 
 .color-3 {
@@ -35,7 +35,7 @@
 }
 
 .background-2 {
-    background: #000000;
+    background: #c2d4f8;
 }
 
 .background-3 {
@@ -859,7 +859,7 @@ img {
     transform: translate(-50%, -50%);
     opacity: 0.02;
     text-shadow: 0 2px 4.8px rgba(30, 29, 50, 0.3);
-    color: #000000;
+    color: #c2d4f8;
     font-size: 88px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1012,7 +1012,7 @@ ol.list-2 li:before {
     padding: 19px 50px;
     margin-right: 1px;
     opacity: 0.7;
-    color: #000000;
+    color: #c2d4f8;
     line-height: normal;
     font-weight: 700;
     font-size: 14px;
@@ -1074,7 +1074,7 @@ ol.list-2 li:before {
     font-size: 14px;
     font-weight: 700;
     opacity: 0.8;
-    color: #000000 !important;
+    color: #c2d4f8 !important;
     top: 0 !important;
     left: auto !important;
     right: 0 !important;
@@ -1191,7 +1191,7 @@ blockquote:before {
 }
 
 .social-content.color2 .social-list a {
-    color: #000000;
+    color: #c2d4f8;
     transition: all 0.3s ease-out;
 }
 
@@ -1257,7 +1257,7 @@ blockquote:before {
 }
 
 .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text {
-    color: #000000;
+    color: #c2d4f8;
 }
 
 .jq-selectbox .jq-selectbox__select .jq-selectbox__trigger-arrow {
@@ -1266,7 +1266,7 @@ blockquote:before {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 10px;
-    color: #000000;
+    color: #c2d4f8;
     margin-top: 10px;
 }
 
@@ -1278,7 +1278,7 @@ blockquote:before {
     left: 0;
     top: 100%;
     background-color: #292845;
-    color: #000000;
+    color: #c2d4f8;
     border-radius: 10px;
     box-shadow: 3.5px 6.1px 30px rgba(0, 0, 0, 0.57);
 }
@@ -1306,7 +1306,7 @@ body::-webkit-scrollbar-thumb {
 
 body .dataTables_wrapper .dataTables_length label {
     font-weight: 300;
-    color: #000000;
+    color: #ffffff;
 }
 
 body .dataTables_wrapper .dataTables_filter {
@@ -1315,7 +1315,7 @@ body .dataTables_wrapper .dataTables_filter {
 
 body .dataTables_wrapper .dataTables_filter input {
     background-color: #292845;
-    color: #000000;
+    color: #ffffff;
     border: 0;
     height: 60px;
     padding: 0 28px;
@@ -1323,7 +1323,7 @@ body .dataTables_wrapper .dataTables_filter input {
 }
 
 body .dataTables_wrapper .dataTables_filter input::-webkit-input-placeholder {
-    color: #000000;
+    color: #ffffff;
     text-transform: uppercase;
     font-style: italic;
     font-size: 14px;
@@ -1331,7 +1331,7 @@ body .dataTables_wrapper .dataTables_filter input::-webkit-input-placeholder {
 }
 
 body .dataTables_wrapper .dataTables_filter input::-moz-placeholder {
-    color: #000000;
+    color: #ffffff;
     text-transform: uppercase;
     font-style: italic;
     font-size: 14px;
@@ -1339,7 +1339,7 @@ body .dataTables_wrapper .dataTables_filter input::-moz-placeholder {
 }
 
 body .dataTables_wrapper .dataTables_filter input:-moz-placeholder {
-    color: #000000;
+    color: #ffffff;
     text-transform: uppercase;
     font-style: italic;
     font-size: 14px;
@@ -1347,7 +1347,7 @@ body .dataTables_wrapper .dataTables_filter input:-moz-placeholder {
 }
 
 body .dataTables_wrapper .dataTables_filter input:-ms-input-placeholder {
-    color: #000000;
+    color: #ffffff;
     text-transform: uppercase;
     font-style: italic;
     font-size: 14px;
@@ -1382,7 +1382,7 @@ body .dataTables_wrapper .dTables tr td {
 }
 
 body .dataTables_wrapper .dataTables_info {
-    color: #000000 !important;
+    color: #c2d4f8 !important;
     margin-bottom: 25px;
 }
 
@@ -1451,7 +1451,7 @@ body .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
 }
 
 .nested-lists a {
-    color: #000000;
+    color: #c2d4f8;
 }
 
 .nested-lists ul {
@@ -1628,7 +1628,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 300;
-    color: #000000;
+    color: #c2d4f8;
     background-color: #1e1d32;
     scrollbar-width: thin;
     scrollbar-color: rgb(33%, 22%, 48%, 0.9) #9370D8;
@@ -2951,7 +2951,7 @@ header .right-bl .search-content button {
 }
 
 .tm-tabs .nav-tabs li a .nav-header-bl .date {
-    color: #000000;
+    color: #c2d4f8;
     font-size: 14px;
     font-weight: 700;
     line-height: normal;
@@ -3087,7 +3087,7 @@ header .right-bl .search-content button {
 }
 
 .news-section .item-info .item-text {
-    color: #000000;
+    color: #c2d4f8;
     font-size: 16px;
     font-weight: 300;
     padding-bottom: 60px;
@@ -3261,7 +3261,7 @@ header .right-bl .search-content button {
 
 .gallery .item .item-info .info-bl .item-btn:hover {
     background-color: #9966CC;
-    border: 1px solid #000000;
+    border: 1px solid #c2d4f8;
     transition: all 0.3s ease-out;
 }
 
@@ -4070,7 +4070,7 @@ footer.footer .copyright {
 .item-content .text-container .social .fa {
     opacity: 0.8;
     font-size: 14px;
-    color: #000000;
+    color: #c2d4f8;
     transition: all 0.3s ease-out;
 }
 
@@ -4642,7 +4642,7 @@ hr.line-success {
 }
 
 .blog-content .categories-widget ul li a {
-    color: #000000;
+    color: #c2d4f8;
     transition: all 0.3s ease-out;
 }
 
@@ -4755,7 +4755,7 @@ hr.line-success {
     width: 30px;
     height: 30px;
     line-height: 24px;
-    color: #000000;
+    color: #c2d4f8;
     font-size: 16px;
     border-radius: 50%;
     overflow: hidden;
@@ -4802,7 +4802,7 @@ hr.line-success {
 }
 
 .blog-content .archive-widget ul li a {
-    color: #000000;
+    color: #c2d4f8;
     transition: all 0.3s ease-out;
 }
 
@@ -5058,7 +5058,7 @@ hr.line-success {
     border: none;
     border-radius: 10px;
     text-transform: uppercase;
-    color: #000000;
+    color: #c2d4f8;
     font-size: 14px;
     margin-bottom: 20px;
     outline: none;
@@ -5067,19 +5067,19 @@ hr.line-success {
 }
 
 .comment-form .general_input::-webkit-input-placeholder {
-    color: #000000;
+    color: #c2d4f8;
 }
 
 .comment-form .general_input::-moz-placeholder {
-    color: #000000;
+    color: #c2d4f8;
 }
 
 .comment-form .general_input:-moz-placeholder {
-    color: #000000;
+    color: #c2d4f8;
 }
 
 .comment-form .general_input:-ms-input-placeholder {
-    color: #000000;
+    color: #c2d4f8;
 }
 
 .comment-form textarea {
