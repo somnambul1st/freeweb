@@ -81,20 +81,20 @@
                                     </a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="server-info.html">Server1</a>
+                                            <a href="/server-info.html">Server1</a>
                                         </li>
                                         <li>
-                                            <a href="server-info.html">Server2</a>
+                                            <a href="/server-info.html">Server2</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="inline-block">
-                                    <a href="donate.html">
+                                    <a href="/donate.html">
                                         Платные услуги
                                     </a>
                                 </li>
                                 <li class="inline-block">
-                                    <a href="index.php?do=rules">
+                                    <a href="/index.php?do=rules">
                                         Правила
                                     </a>
                                 </li>
@@ -151,17 +151,17 @@
                             </a>
                         </li>
                         <li>
-                            <a href="team.html">
+                            <a href="/team.html">
                                 Команда проекта
                             </a>
                         </li>
                         <li>
-                            <a href="index.php?do=rules">
+                            <a href="/index.php?do=rules">
                                 Правила проекта
                             </a>
                         </li>
                         <li>
-                            <a href="donate.html">
+                            <a href="/donate.html">
                                 Платные услуги
                             </a>
                         </li>
@@ -206,6 +206,7 @@
     <script src="{THEME}/plugins/jquery-date-range-picker-master/dist/jquery.daterangepicker.min.js"></script>
     <script src="{THEME}/plugins/wow-master/dist/wow.min.js"></script>
     <script src="{THEME}/js/script.js"></script>
+    {include file="modal.tpl"}
 </body>
 
 </html>

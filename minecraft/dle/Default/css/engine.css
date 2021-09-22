@@ -735,7 +735,7 @@ input[type="month"], input[type="time"], input[type="week"], input[type="number"
 input[type="email"], input[type="url"], input[type="search"], input[type="tel"],
 input[type="color"] {
 	display: inline-block;
-	width: 302px; height: 46px;
+	height: 46px;
 	line-height: 22px;
 	padding: 10px;
 	vertical-align: middle;
@@ -802,7 +802,7 @@ input[type="color"] {
 	.dle-captcha > input { float: left; width: 130px; }
 
 /* --- Настройка кнопок --- */
-.btn, .bbcodes, .btn-border {
+.bbcodes, .btn-border {
 	border: 0 none;
 	display: inline-block;
 	vertical-align: middle;
@@ -825,7 +825,7 @@ input[type="color"] {
 	.btn-white { background-color: #fff; color: #3394e6; }
 		.btn-white:hover > .icon { fill: #fff; }
 		.btn-white:hover { background-color: #3394e6; color: #fff; }
-	.btn:hover, .bbcodes:hover, .ui-button:hover { background-color: #46a6f6; }
+	.bbcodes:hover, .ui-button:hover { background-color: #46a6f6; }
 
 	.btn-big { height: 46px; padding: 12px 27px; border-radius: 23px; }
 

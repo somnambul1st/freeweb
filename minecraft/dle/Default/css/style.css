@@ -3571,97 +3571,110 @@ header .right-bl .search-content button {
    10. REGISTRATION SECTION
    ========================================================================== */
 
-.register-section [class*='col-'] {
-    margin-bottom: 30px;
-}
-
-.register-section .reg-wrapper .reg-title {
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
+.alert {
     color: #fff;
+    border-radius: .5rem;
+    padding: 1rem 1.25rem;
+    background-color: #18191c!important;
 }
 
-.register-section .reg-wrapper .subtitle {
-    opacity: 0.1;
-    left: 0;
-    -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+.alert ol {
+    margin-left: 45px;
 }
 
-.register-section .reg-form {
+.alert-warning {
+    border-color: #856404;
+}
+
+.alert--registration {
+    padding-bottom: .5rem!important;
+    color: #FFF !important;
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+}
+
+.alert {
     position: relative;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(0,0,0,0);
 }
 
-.register-section .reg-form input {
-    outline: none;
-    border: none;
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25%;
+    margin-right: 15%;
 }
 
-.register-section .reg-form .reg_input input {
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    position: relative;
     width: 100%;
-    background: #fff;
-    border-radius: 10px;
-    padding: 20px 40px;
-    text-transform: uppercase;
-    font-style: italic;
-    color: #1e1d32;
-    /* Firefox 19+ */
-    /* Firefox 18- */
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-.register-section .reg-form .reg_input input::-webkit-input-placeholder {
-    opacity: 0.5;
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100% !important;
 }
 
-.register-section .reg-form .reg_input input::-moz-placeholder {
-    opacity: 0.5;
+.col-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
 }
 
-.register-section .reg-form .reg_input input:-moz-placeholder {
-    opacity: 0.5;
+.col-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
 }
 
-.register-section .reg-form .reg_input input:-ms-input-placeholder {
-    opacity: 0.5;
+.form-control {
+    height: 45px;
+    line-height: 45px;
+    padding: .75rem 1rem;
 }
 
-.register-section .reg-form .reg_input input:focus::-webkit-input-placeholder {
-    opacity: 0;
+.form-control {
+    display: block;
+    height: calc(1.5em + .75rem + 2px);
+    font-size: 1.3rem;
+    font-weight: 400;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.register-section .reg-form .reg_input input:focus::-moz-placeholder {
-    opacity: 0;
+.btn.gradient-black {
+    background: linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0.64) 100%);
+    transition: all 0.3s ease-out;
+    padding: 15px 20px 15px 20px;
 }
 
-.register-section .reg-form .reg_input input:focus:-moz-placeholder {
-    opacity: 0;
-}
-
-.register-section .reg-form .reg_input input:focus:-ms-input-placeholder {
-    opacity: 0;
-}
-
-.register-section .reg-form .reg_submit {
-    background: transparent;
-    border: none;
-    padding: 0;
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-.register-section .reg-form .reg_submit .fa {
+.btn.gradient-black:hover {
+    background: rgba(0, 0, 0, 0.64) !important;
+    color: #fff;
     transition: all 0.3s ease-out;
 }
-
-.register-section .reg-form .reg_submit .fa:hover {
-    color: #7c69e3;
-    transition: all 0.3s ease-out;
-}
-
 
 /* ==========================================================================
    11. FOOTER STYLES
@@ -5114,4 +5127,47 @@ hr.line-success {
     border: 0px;
     height: 1px;
     width: 100%;
+}
+
+.start .alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1.4rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.start .alert-info {
+    color: #0c5460 !important;
+    background-color: #d1ecf1 !important;
+    border-color: #bee5eb !important;
+}
+
+.start .alert-border {
+    border-radius: 10px;
+}
+
+.start .mr-2, .start .mx-2 {
+    margin-right: .5rem!important;
+}
+
+.start p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.start .text-center {
+    text-align: center;
+}
+
+.start .btn {
+    padding: 10px 8px 10px 8px;
+}
+
+.mt-3, .my-3 {
+    margin-top: 1rem!important;
+}
+
+.start .m-mt-3, .start .m-my-3 {
+    margin-top: 1.7rem!important;
 }

@@ -80,20 +80,20 @@
                                     </a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="server-info.html">Server1</a>
+                                            <a href="/server-info.html">Server1</a>
                                         </li>
                                         <li>
-                                            <a href="server-info.html">Server2</a>
+                                            <a href="/server-info.html">Server2</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="inline-block">
-                                    <a href="donate.html">
+                                    <a href="/donate.html">
                                         Платные услуги
                                     </a>
                                 </li>
                                 <li class="inline-block">
-                                    <a href="index.php?do=rules">
+                                    <a href="/index.php?do=rules">
                                         Правила
                                     </a>
                                 </li>
@@ -163,7 +163,7 @@
                                                 <div class="n2-ss-layer n2-ow" style="margin:3.125em 0em 0em 0em ;overflow:visible;" data-pm="normal" data-desktopportraitmargin="50|*|0|*|0|*|0|*|px+" data-desktopportraitheight="0" data-has-maxwidth="0" data-desktopportraitmaxwidth="0" data-cssselfalign="inherit"
                                                     data-desktopportraitselfalign="inherit" data-sstype="layer" data-rotation="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-tabletportraitfontsize="80" data-mobileportraitfontsize="100" data-plugin="rendered">
                                                     <div class="n2-ss-button-container n2-ow n2-font-mainslidelink  n2-ss-nowrap">
-                                                        <a class="n2-style-mainslideheading  n2-ow " onclick="return false;" href="#">
+                                                        <a class="n2-style-mainslideheading  n2-ow " href="/start.html">
                                                             <div>
                                                                 <div>Начать игру</div>
                                                             </div>
@@ -201,7 +201,7 @@
                                                 <div class="n2-ss-layer n2-ow" style="margin:3.125em 0em 0em 0em ;overflow:visible;" data-pm="normal" data-desktopportraitmargin="50|*|0|*|0|*|0|*|px+" data-desktopportraitheight="0" data-has-maxwidth="0" data-desktopportraitmaxwidth="0" data-cssselfalign="inherit"
                                                     data-desktopportraitselfalign="inherit" data-sstype="layer" data-rotation="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-tabletportraitfontsize="80" data-mobileportraitfontsize="100" data-plugin="rendered">
                                                     <div class="n2-ss-button-container n2-ow n2-font-mainslidelink  n2-ss-nowrap">
-                                                        <a class="n2-style-mainslideheading  n2-ow " onclick="return false;" href="#">
+                                                        <a class="n2-style-mainslideheading  n2-ow " href="#">
                                                             <div>
                                                                 <div>Личный кабинет</div>
                                                             </div>
@@ -241,7 +241,7 @@
                                                 <div class="n2-ss-layer n2-ow" style="margin:3.125em 0em 0em 0em ;overflow:visible;" data-pm="normal" data-desktopportraitmargin="50|*|0|*|0|*|0|*|px+" data-desktopportraitheight="0" data-has-maxwidth="0" data-desktopportraitmaxwidth="0" data-cssselfalign="inherit"
                                                     data-desktopportraitselfalign="inherit" data-sstype="layer" data-rotation="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-tabletportraitfontsize="80" data-mobileportraitfontsize="100" data-plugin="rendered">
                                                     <div class="n2-ss-button-container n2-ow n2-font-mainslidelink  n2-ss-nowrap">
-                                                        <a class="n2-style-mainslideheading  n2-ow " onclick="return false;" href="#">
+                                                        <a class="n2-style-mainslideheading  n2-ow " href="#">
                                                             <div>
                                                                 <div>Подробная информация</div>
                                                             </div>
@@ -353,7 +353,7 @@
                                 </div>
                                 <div class="mt60 table g-bottom">
                                     <div class="table-cell valign-middle">
-                                        <a href="server-info.html" class="btn gradient color-white plr60 ptb19">
+                                        <a href="/server-info.html" class="btn gradient color-white plr60 ptb19">
                                             Полное описание
                                         </a>
                                     </div>
@@ -384,7 +384,7 @@
                                 </div>
                                 <div class="mt60 table g-bottom">
                                     <div class="table-cell valign-middle">
-                                        <a href="server-info.html" class="btn gradient color-white plr60 ptb19">
+                                        <a href="/server-info.html" class="btn gradient color-white plr60 ptb19">
                                             Полное описание
                                         </a>
                                     </div>
@@ -455,17 +455,17 @@
                             </a>
                         </li>
                         <li>
-                            <a href="team.html">
+                            <a href="/team.html">
                                 Команда проекта
                             </a>
                         </li>
                         <li>
-                            <a href="index.php?do=rules">
+                            <a href="/index.php?do=rules">
                                 Правила проекта
                             </a>
                         </li>
                         <li>
-                            <a href="donate.html">
+                            <a href="/donate.html">
                                 Платные услуги
                             </a>
                         </li>
