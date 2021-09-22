@@ -3676,6 +3676,19 @@ header .right-bl .search-content button {
     transition: all 0.3s ease-out;
 }
 
+.lp {
+    margin-left: -20%;
+    width: 300px;
+}
+
+.page_form__inner {
+    text-align: center;
+}
+
+.page_form__inner .c-captcha {
+    margin-left: 38%;
+    margin-bottom: 1%;
+}
 /* ==========================================================================
    11. FOOTER STYLES
    ========================================================================== */
