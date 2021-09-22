@@ -1,4 +1,6 @@
-<div class="box berrors fix_grid">
-	<b>{title}</b><br>
-	{error}
+<div class="container">
+	<div class="dle-error">
+		<b>{title}</b><br>
+		{error}
+	</div>
 </div>

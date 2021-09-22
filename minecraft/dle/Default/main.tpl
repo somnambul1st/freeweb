@@ -80,20 +80,20 @@
                                     </a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="#">Server1</a>
+                                            <a href="server-info.html">Server1</a>
                                         </li>
                                         <li>
-                                            <a href="#">Server2</a>
+                                            <a href="server-info.html">Server2</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="inline-block">
-                                    <a href="#">
+                                    <a href="donate.html">
                                         Платные услуги
                                     </a>
                                 </li>
                                 <li class="inline-block">
-                                    <a href="#">
+                                    <a href="index.php?do=rules">
                                         Правила
                                     </a>
                                 </li>
@@ -353,7 +353,7 @@
                                 </div>
                                 <div class="mt60 table g-bottom">
                                     <div class="table-cell valign-middle">
-                                        <a href="#" class="btn gradient color-white plr60 ptb19">
+                                        <a href="server-info.html" class="btn gradient color-white plr60 ptb19">
                                             Полное описание
                                         </a>
                                     </div>
@@ -384,7 +384,7 @@
                                 </div>
                                 <div class="mt60 table g-bottom">
                                     <div class="table-cell valign-middle">
-                                        <a href="#" class="btn gradient color-white plr60 ptb19">
+                                        <a href="server-info.html" class="btn gradient color-white plr60 ptb19">
                                             Полное описание
                                         </a>
                                     </div>
@@ -432,19 +432,8 @@
 		<div class="page_form">
 			<a class="page_form__back" href="/" title="Вернуться на главную"><svg class="icon icon-left"><use xlink:href="#icon-left"></use></svg></a>
 			<div class="page_form__body">
-				<div class="page_form__logo">
-					<!-- Логотип -->
-					<a href="/">
-						<svg class="icon icon-logo"><use xlink:href="#icon-logo"></use></svg>
-						<span class="title_hide">DataLife Engine</span>
-					</a>
-					<!-- / Логотип -->
-				</div>
 				{info}
 				{content}
-				<div class="page_form__foot grey">
-					{include file="modules/copyright.tpl"}
-				</div>
 			</div>
 		</div>
 	[/available]
@@ -466,17 +455,17 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="team.html">
                                 Команда проекта
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="index.php?do=rules">
                                 Правила проекта
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="donate.html">
                                 Платные услуги
                             </a>
                         </li>

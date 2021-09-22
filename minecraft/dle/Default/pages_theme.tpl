@@ -2,12 +2,11 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
+    {headers}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Viacheslav Chetyrkin">
     <meta name="copyright" content="NAME PROJECT 2021 © All Rights Reserved">
-    <title>Minecraft шаблон от Viacheslav Chetyrkin</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="{THEME}/images/favicon.ico" type="image/x-icon">
     <!-- Font Awesome -->
@@ -15,14 +14,14 @@
     <!-- Bootstrap-->
     <link rel="stylesheet" href="{THEME}/css/bootstrap.min.css">
     <!-- Style -->
-    <link href="{THEME}/{THEME}/css/engine.css" type="text/css" rel="stylesheet">  
+    <link href="{THEME}/css/engine.css" type="text/css" rel="stylesheet">  
     <link rel="stylesheet" href="{THEME}/css/style.css">
     <!-- Responsive Style -->
     <link rel="stylesheet" href="{THEME}/css/responsive.css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="{THEME}/plugins/animate.css-master/animate.min.css">
     <!-- Light Box -->
-    <link href="{THEME}/plugins/lightbox2-master/dist/{THEME}/css/lightbox.css" rel="stylesheet">
+    <link href="{THEME}/plugins/lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
     <!-- Video js -->
     <link href="{THEME}/css/video-js.css" rel="stylesheet">
     <!-- Datapicker -->
@@ -30,14 +29,14 @@
     <!-- Sliders -->
     <link rel="stylesheet" type="text/css" href="{THEME}/plugins/slick-1.8.0/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="{THEME}/plugins/slick-1.8.0/slick/slick-theme.css">
-    <link rel="stylesheet" type="text/css" href="{THEME}/plugins/slider/{THEME}/css/normalize.min.css" media="screen, print">
-    <link rel="stylesheet" type="text/css" href="{THEME}/plugins/slider/{THEME}/css/smartslider.min.css" media="screen, print">
-    <script type="text/javascript" src="{THEME}/plugins/slider/{THEME}/js/n2-j.min.js"></script>
-    <script type="text/javascript" src="{THEME}/plugins/slider/{THEME}/js/nextend-gsap.min.js"></script>
-    <script type="text/javascript" src="{THEME}/plugins/slider/{THEME}/js/nextend-frontend.min.js"></script>
-    <script type="text/javascript" src="{THEME}/plugins/slider/{THEME}/js/smartslider-frontend.min.js"></script>
-    <script type="text/javascript" src="{THEME}/plugins/slider/{THEME}/js/smartslider-simple-type-frontend.min.js"></script>
-    <script type="text/javascript" src="{THEME}/plugins/slider/{THEME}/js/nextend-webfontloader.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{THEME}/plugins/slider/css/normalize.min.css" media="screen, print">
+    <link rel="stylesheet" type="text/css" href="{THEME}/plugins/slider/css/smartslider.min.css" media="screen, print">
+    <script type="text/javascript" src="{THEME}/plugins/slider/js/n2-j.min.js"></script>
+    <script type="text/javascript" src="{THEME}/plugins/slider/js/nextend-gsap.min.js"></script>
+    <script type="text/javascript" src="{THEME}/plugins/slider/js/nextend-frontend.min.js"></script>
+    <script type="text/javascript" src="{THEME}/plugins/slider/js/smartslider-frontend.min.js"></script>
+    <script type="text/javascript" src="{THEME}/plugins/slider/js/smartslider-simple-type-frontend.min.js"></script>
+    <script type="text/javascript" src="{THEME}/plugins/slider/js/nextend-webfontloader.min.js"></script>
 </head>
 
 <body>
@@ -82,20 +81,20 @@
                                     </a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a href="#">Server1</a>
+                                            <a href="server-info.html">Server1</a>
                                         </li>
                                         <li>
-                                            <a href="#">Server2</a>
+                                            <a href="server-info.html">Server2</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="inline-block">
-                                    <a href="#">
+                                    <a href="donate.html">
                                         Платные услуги
                                     </a>
                                 </li>
                                 <li class="inline-block">
-                                    <a href="#">
+                                    <a href="index.php?do=rules">
                                         Правила
                                     </a>
                                 </li>
@@ -120,9 +119,12 @@
                     </div>
                     <div class="table-cell valign-top text-right">
                         <div class="right-bl">
-                            <a href="#" class="btn header-btn ml25 color-white hidden-sm hidden-xs">
-                                Начать играть
-                            </a>
+                            [group=5]<a href="#" class="btn header-btn ml25 color-white hidden-sm hidden-xs" data-toggle="modal" data-target="#login">
+                                Войти
+                            </a>[/group]
+                            [not-group=5]
+                            {login}
+                            [/not-group]
                         </div>
                     </div>
                 </div>
@@ -131,6 +133,7 @@
     </div>
     <!-- HEADER END -->
     {content}
+    {info}
     <!-- FOOTER START -->
     <footer class="footer">
         <div class="container">
@@ -148,17 +151,17 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="team.html">
                                 Команда проекта
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="index.php?do=rules">
                                 Правила проекта
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="donate.html">
                                 Платные услуги
                             </a>
                         </li>
@@ -198,7 +201,7 @@
     <script src="{THEME}/js/video.js"></script>
     <script src="{THEME}/js/jquery.inview.min.js"></script>
     <script src="{THEME}/js/progressbar.min.js"></script>
-    <script src="{THEME}/plugins/lightbox2-master/dist/{THEME}/js/lightbox.js"></script>
+    <script src="{THEME}/plugins/lightbox2-master/dist/js/lightbox.js"></script>
     <script src="{THEME}/js/moment.min.js"></script>
     <script src="{THEME}/plugins/jquery-date-range-picker-master/dist/jquery.daterangepicker.min.js"></script>
     <script src="{THEME}/plugins/wow-master/dist/wow.min.js"></script>

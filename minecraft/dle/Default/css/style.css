@@ -829,7 +829,7 @@ img {
 }
 
 .btn.gradient:hover {
-    background: #9966CC;
+    background: #9966CC !important;
     color: #fff;
     transition: all 0.3s ease-out;
 }
@@ -910,10 +910,10 @@ img {
 }
 
 .page-name {
-    padding: 235px 0 100px 0;
-    background-image: url("../images/page-name.jpg");
+    padding: 130px 0 15px 0;
+    /*background-image: url("../images/page-name.jpg");
     background-repeat: no-repeat;
-    background-size: auto 120%;
+    background-size: auto 120%;*/
 }
 
 .page-name .page-title {
@@ -3321,6 +3321,19 @@ header .right-bl .search-content button {
     padding: 0;
 }
 
+.dle-error {
+    display: block;
+    background-color: rgba(86%, 8%, 24%, 0.7);
+    color: rgba(95%, 95%, 95%, 1);;
+    max-width: 1140px;
+    min-width: 250px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 230px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
 .st-tabs .tab-content .right-col {
     padding: 0;
     background-color: #181728;
@@ -3786,45 +3799,6 @@ footer.footer .copyright {
     background: #1e1d32;
 }
 
-
-/* ==========================================================================
-   13. 404 PAGE
-   ========================================================================== */
-
-.page-404 {
-    height: 100vh;
-    padding-top: 140px;
-    min-height: 700px;
-    background: url("../images/404/404-bg.jpg");
-    background-size: cover;
-}
-
-.page-404 .title-error {
-    color: #fff;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-
-.page-404 .footer-line {
-    height: 80px;
-}
-
-.page-404 .footer-line .footer-404 {
-    padding: 30px 0;
-    background-color: #1e1d32;
-}
-
-.page-404 .footer-line .footer-404 [class*="col-"] {
-    text-align: center;
-}
-
-.page-404 .footer-line .footer-404 [class*="col-"]:last-child {
-    margin-bottom: 0;
-}
-
-
 /* ==========================================================================
    14. FAQ PAGE
    ========================================================================== */
@@ -4154,7 +4128,7 @@ footer.footer .copyright {
 
 
 /* ==========================================================================
-   19. SINGLE GAMES PAGE
+   19. SERVER INFO PAGE
    ========================================================================== */
 
 .game-img-slider .image-wrapper a {
@@ -4180,8 +4154,7 @@ footer.footer .copyright {
 
 .bg-arrow .slick-arrow:before {
     line-height: 60px;
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 18px;
     color: #fff;
     transition: all 0.3s ease-out;
 }
@@ -4198,6 +4171,123 @@ footer.footer .copyright {
     stroke: #292845;
 }
 
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 0.0625rem solid rgba(34, 42, 66, 0.05);
+    border-radius: 0.2857rem;
+    padding: 0 15px 0;
+}
+
+.card {
+    background: rgba(31, 34, 81, 0.9);
+    border: 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 20px 0px rgb(0 0 0 / 10%);
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.5rem;
+}
+
+.card .card-body .card-title {
+    color: #ffffff;
+    text-transform: inherit;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: .75rem;
+}
+
+.card h1, .card h2, .card h3, .card h4, .card h5, .card h6, .card p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.card-title {
+    margin-bottom: 1.25rem;
+}
+
+.card .card-title {
+    margin-bottom: .75rem;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
+
+.card img {
+    padding-right: 30px;
+}
+
+.cards .bg-default {
+    background-color: #344675 !important;
+    margin-left: 25px;
+}
+
+.cards .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.cards .row a {
+    margin-left: 25%;
+}
+
+.server-mods .col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.server-title {
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left !important;
+    line-height: 1.2;
+    text-transform: none;
+    font-size: 30px;
+}
+
+hr {
+    width: 10%;
+    height: 1px !important;
+    border-radius: 3px;
+    margin-left: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    border: 0;
+    box-sizing: content-box;
+    overflow: visible;
+}
+
+hr.line-success {
+    background-color: #00f2c3;
+}
+
 /* ==========================================================================
    22. CONTACT PAGE
    ========================================================================== */
@@ -4209,6 +4299,61 @@ footer.footer .copyright {
 .contact-page .icon-bl {
     width: 50px;
     padding-right: 15px;
+}
+
+.donate .mt-4, .my-4 {
+    margin-top: 1.5rem !important;
+}
+
+.donate .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+
+.donate .table-bordered {
+    border: 0.0625rem solid #e3e3e3;
+}
+
+.donate .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.donate .table>thead>tr>th {
+    border-bottom-width: 1px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.donate .table-bordered thead th, .table-bordered thead td {
+    border-bottom-width: 0.125rem;
+}
+
+.donate .table thead th {
+    vertical-align: bottom;
+    border-bottom: 0.125rem solid #e3e3e3;
+}
+
+.donate .table-bordered th, .table-bordered td {
+    border: 0.0625rem solid #e3e3e3;
+}
+
+.donate .table th, .table td {
+    padding: 1rem;
+    vertical-align: top;
+    border-top: 0.0625rem solid #e3e3e3;
+}
+
+.donate th {
+    text-align: inherit;
+}
+
+.donate .qqq {
+    margin-left: 40%;
 }
 
 
@@ -4918,4 +5063,54 @@ footer.footer .copyright {
 .comment-form [class*="col-"] {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.rules .rl {
+    text-align: center;
+    font-weight: 700;
+}
+
+.rules span {
+    background-color: transparent;
+    white-space: pre-wrap;
+    letter-spacing: 0px;
+    word-spacing: 0.1em;
+}
+
+.rules-text {
+    display: block;
+    margin-bottom: -30px;
+}
+
+.rules .n {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.rules .r {
+    font-size: 14px;
+}
+
+.rules .dn {
+    color: crimson;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.rules .dt {
+    word-spacing: 1.1px;
+    font-size: 14px;
+}
+
+.rules p {
+    margin: 0;
+}
+
+.rules hr {
+    background: rgba(164, 129, 85, 0.25);
+    margin: 15px 0;
+    border: 0px;
+    height: 1px;
+    width: 100%;
 }
