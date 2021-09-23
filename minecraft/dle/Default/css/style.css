@@ -2760,7 +2760,7 @@ header .right-bl .search-content button {
     display: block;
     overflow-x: auto;
     overflow-y: hidden;
-    margin-top: 24%;
+    margin-top: 20%;
     margin-left: 40px;
     cursor:pointer;
 }
@@ -2769,6 +2769,11 @@ header .right-bl .search-content button {
     height: 40px;
     width: 40px;
     border-radius: 100px;
+}
+
+.profile-short i {
+    color: #55536e !important;
+    text-decoration: none;
 }
 
 .profile-short a {
