@@ -17,7 +17,7 @@ DLE шаблон готов на 90%
 HTML: https://viadevelop.store/demo/html_minecraft/
 DLE 14.3: https://viadevelop.store/demo/dle_minecraft/
 
-# Для правильного отображения новостей:
+# Для правильного отображения страниц и новостей:
 В новом DLE:
 1) открываете файл /engine/modules/main.php
 2) находите $tpl->load_template('main.tpl');
