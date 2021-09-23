@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <h1 class="page-title">
-                    Правила проекта
+                    Our rules
                 </h1>
             </div>
         </div>
@@ -13,13 +13,13 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="rl"><span>1. Общие правила</span></div>
+                <div class="rl"><span>1. Textа</span></div>
                 <span class="rules-text">
-                    <span class="n">1.1.</span> <span class="r">Тут правило.</span>
+                    <span class="n">1.1.</span> <span class="r">Text.</span>
                 </span>
                 <span class="rules-text">
-                    <span class="n">1.2.</span> <span class="r">Тут правило.</span>
-                    <span class="dn">Наказание: </span><span class="dt">Кик с сервера. При рецидиве – бан от 1 до 360 дней.</span>
+                    <span class="n">1.2.</span> <span class="r">Text.</span>
+                    <span class="dn">Text: </span><span class="dt">Text.</span>
                 </span>
             </div>
         </div>

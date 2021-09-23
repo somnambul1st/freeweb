@@ -4,9 +4,9 @@
 	<a  href="{logout-link}"><i class="fas fa-door-open"></i></a>
 	<div class="profile-short-menu" id="profile-short-menu">
 		<ul>
-			<li>Личный кабинет</li>
-			<li>Магазин блоков</li>
-			<li>Бан-лист</li>
+			<li>Link1</li>
+			<li>Link2</li>
+			<li>Link3</li>
 		</ul>
 	</div>
 </div>
@@ -20,15 +20,15 @@
 		</li>
 		<li>
 			<label for="login_password">Пароль:</label>
-			<input placeholder="Пароль" type="password" name="login_password" id="login_password">
+			<input placeholder="Password" type="password" name="login_password" id="login_password">
 		</li>
 		<li>
 			<a href="{lostpassword-link}">Забыли пароль?</a>
-			<a class="right" href="{registration-link}"><b>Регистрация</b></a>
+			<a class="right" href="{registration-link}"><b>Registration</b></a>
 		</li>
 		<li class="login_input-btn">
-			<button class="ui-button ui-corner-all ui-widget" onclick="submit();" type="submit" title="Войти">
-				<span class="title_hide">Войти</span>
+			<button class="ui-button ui-corner-all ui-widget" onclick="submit();" type="submit" title="Login">
+				<span class="title_hide">Login</span>
 			</button>
 		</li>
 	</ul>

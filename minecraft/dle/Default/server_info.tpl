@@ -3,12 +3,12 @@
     <div class="container">
         <div class="row">
             <h1 class="page-title">
-                Описание сервера SERVER1
+                Server description SERVER1
             </h1>
             <div class="breadcrumbs">
-                <span>Магический</span> /
-                <span class="color-1">Сложный</span> /
-                <span>Есть самописы</span>
+                <span>Magic</span> /
+                <span class="color-1">Hard</span> /
+                <span>There are self-descriptions</span>
             </div>
         </div>
     </div>
@@ -167,7 +167,7 @@
                 </div>
             </div>
         </div>
-        <h2 class="server-title text-left">Список серверных модов</h2>
+        <h2 class="server-title text-left">List of server mods</h2>
         <hr class="line-success" style="margin-bottom: 30px;">
         <div class="cards server-mods">
             <div class="row">
@@ -257,7 +257,7 @@
                 </div>
             </div>   
         </div>
-        <h2 class="server-title text-left">Список клиентских модов</h2>
+        <h2 class="server-title text-left">List of client mods</h2>
         <hr class="line-success" style="margin-bottom: 30px;">
         <div class="cards server-mods">
             <div class="row">

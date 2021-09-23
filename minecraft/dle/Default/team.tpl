@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <h1 class="page-title">
-                Команда проекта
+                Our team
             </h1>
         </div>
     </div>
@@ -23,7 +23,7 @@
                             Name
                         </a>
                         <div class="position mt10">
-                            Должность
+                            Position
                         </div>
                         <div class="social mt20">
                             <a href="#">
@@ -41,7 +41,7 @@
                             Name
                         </a>
                         <div class="position mt10">
-                            Должность
+                            Position
                         </div>
                         <div class="social mt20">
                             <a href="#">
@@ -59,7 +59,7 @@
                             Name
                         </a>
                         <div class="position mt10">
-                            Должность
+                            Position
                         </div>
                         <div class="social mt20">
                             <a href="#">

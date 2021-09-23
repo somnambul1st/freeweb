@@ -11,29 +11,29 @@
     <section>
         <div class="container">
             <div class="row">
-                <h5 class="mt-3">1. Создайте аккаунт</h5>
-                <p>На всех наших серверах используется собственная система авторизации, поэтому Вам необходимо сначала создать аккаунт.</p>
-                <div class="alert alert-info alert-border"><i class="fas fa-info-circle mr-2"></i>Перед регистрацией аккаунта обязательно ознакомьтесь с <a href="/index.php?do=rules" class="">нашими правилами</a></div>
-                <div class="text-center"><a href="/index.php?do=register" target="_blank" class="btn gradient color-white"><i class="fas fa-user-plus mr-2"></i>Регистрация</a></div>
-                <h5 class="m-mt-3">2. Скачайте лаунчер</h5>
-                <p>Для игры на наших серверах потребуется специальный клиент, настроенный под наши сервера. Программа запуска (лаунчер Minecraft) поможет Вам его загрузить и запустить. Никаких модификаций на клиент устанавливать самостоятельно не нужно.</p>
-                <div class="alert alert-info alert-border"><i class="fas fa-info-circle mr-2"></i>Если лаунчер для Windows блокирует ваш антивирус, скачайте <b>универсальный</b>.
+                <h5 class="mt-3">1. Create an account</h5>.
+                <p>All of our servers use a proprietary authentication system, so you will first need to create an account.
+                <div class="alert-info alert-border"><i class="fa-info-circle mr-2"></i>be sure to review <a href="/index.php?do=rules" class="">our rules</a></div> before registering your account.
+                <div class="text-center"><a href="/index.php?do=register" target="_blank" class="btn gradient color-white"><i class="fas fa-user-plus mr-2"></i>Register</a></div>
+                <h5 class="m-mt-3">2. Download the Launcher</h5>.
+                <p>You will need a special client that has been set up to play on our servers. The Minecraft Launcher will help you get it up and running. You don't need to install any modifications to the client yourself.
+                <div class="alert-info alert-border"><i class="fa-info-circle mr-2"></i>If the Windows Launcher is blocking your antivirus, download <b>universal</b>.
                             </div>
-                <div class="text-center"><a href="#" class="btn gradient color-white"><i class="fas fa-download mr-2"></i>Универсальный лаунчер (.jar)</a> <a href="#" class="btn gradient color-white"><i class="fab fa-windows mr-2"></i>Лаунчер для Windows (.exe)</a></div>
+                <div class="text-center"><a href="#" class="btn gradient color-white"><i class="fa-download mr-2"></i>Universal Launcher (.jar)</a> <a href="#" class="btn gradient color-white"><i class="fab fa-windows mr-2"></i>Luncher for Windows (.exe)</a></div>.
                 <p class="m-mt-3">
-                    Для запуска игры Вам необходимо иметь установленную <b>Oracle Java 8</b> на компьютере.
-                    Самую последнюю версию можно загрузить с <a href="https://java.com/ru/download/manual.jsp" target="_blank">официального сайта</a>.
-                    <br>На другой версии Java (например 12) лаунчер и игра работать не будут!
+                    In order to run the game you need to have <b>Oracle Java 8</b> installed on your computer.
+                    The latest version can be downloaded from <a href="https://java.com/ru/download/manual.jsp" target="_blank">official website</a>.
+                    <br>On another version of Java (such as 12) Launcher and the game will not work!
                 </p>
-                <h5 class="m-mt-3">3. Наслаждайтесь игрой</h5>
+                <h5 class="m-mt-3">3. Enjoy the game</h5>.
                 <p>
-                    Когда все предыдущие этапы пройдены, вы можете начать играть на наших серверах.
-                    В выборе сервера для игры вам поможет пункт меню «Серверы». <br>
-                    Не забывайте, что у нас есть <a href="#" target="_blank">форум</a> и
-                    <a href="#" target="_blank">discord-сервер</a>, где вам помогут с любыми вопросами, касающимися игры.
+                    Once you have completed all of the previous steps, you can start playing on our servers.
+                    The Servers menu will help you choose which server you would like to play on. <br>
+                    Don't forget that we have <a href="#" target="_blank">forum</a> and
+                    <a href="#" target="_blank">discord server</a>, where we will help you with any questions regarding the game.
                 </p>
-                <p>Вступайте в нашу официальную <a href="#" target="_blank">группу ВКонтакте</a>, чтобы быть в курсе всех новостей, происходящих в жизни проекта!</p>        
-                <div class="text-center"><a href="#" class="btn gradient color-white">Помощь с запуском лаунчера</a> <a href="#" class="btn custom-btn">Поддержка</a></div>
+                <p>Register to our official <a href="#" target="_blank">VKontakte group</a> to stay up to date on all events in the life of the project! </p>        
+                <div class="text-center"><a href="#" class="btn gradient color-white">Help run the launcher</a> <a href="#" class="btn custom-btn">Support</a></div>
             </div>
         </div>
     </section>
